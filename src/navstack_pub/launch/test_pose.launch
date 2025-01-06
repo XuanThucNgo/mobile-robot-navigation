@@ -1,0 +1,12 @@
+<launch>
+
+
+    <!-- Set initial pose using .py file -->
+    <node name="pub_initpose_node" pkg="navstack_pub" type="setInitialPose.py" output="screen">
+        <param name="x" value="0.0"/>
+        <param name="y" value="0.0"/>
+        <param name="yaw" value="0.0"/> 
+    </node>
+
+
+</launch>

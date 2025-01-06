@@ -1,0 +1,8 @@
+prefix=/home/ross/catkin_ws/devel
+
+Name: robot_amcl
+Description: Description of robot_amcl
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

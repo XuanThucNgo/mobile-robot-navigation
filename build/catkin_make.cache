@@ -1,0 +1,2 @@
+localization_data_pub:navstack_pub:robot_amcl:robot_mapping:roboter:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/ross/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ross/catkin_ws/install -G Unix Makefiles

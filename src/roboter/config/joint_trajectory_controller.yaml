@@ -1,0 +1,28 @@
+robot_arm_controller:
+  type: "position_controllers/JointTrajectoryController"
+  joints: [phutruoc, phusau, banhtrai, banhphai]
+
+# Controller to continuously publish joint states/positions
+joint_state_controller:
+  type: "joint_state_controller/JointStateController"
+  publish_rate: 40
+
+# PID gains for joints
+gazebo_ros_control:
+  pid_gains:
+    phutruoc:
+      p: 15.0
+      i: 0.2
+      d: 0.01
+    phusau:
+      p: 15.0
+      i: 0.2
+      d: 0.01
+    banhphai:
+      p: 10.0
+      i: 0.1
+      d: 0.01
+    banhtrai:
+      p: 10.0
+      i: 0.1
+      d: 0.01

@@ -1,0 +1,11 @@
+obstacle_range: 2.5
+raytrace_range: 3.0
+
+# length: 0.48
+# width: 0.44
+footprint: [[-0.24, -0.22], [-0.24, 0.22], [0.24, 0.22], [0.24, -0.22]]
+footprint_padding: 0.0
+
+map_type: costmap
+observation_sources: laser_scan_sensor
+scan: {sensor_frame: laser, data_type: LaserScan, topic: scan, marking: true, clearing: true}

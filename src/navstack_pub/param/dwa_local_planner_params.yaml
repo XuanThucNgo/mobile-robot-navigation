@@ -1,0 +1,28 @@
+controller_frequency: 10.0
+recovery_behaviour_enabled: true
+
+DWAPlannerROS:
+  # Robot Configuration Parameters
+  max_vel_x: 0.3
+  min_vel_x: -0.3
+  max_vel_y: 0.0
+  min_vel_y: 0.0
+
+  max_rot_vel: 0.3
+  min_rot_vel: 0.1
+
+  # The velocity when robot is moving in a straight line
+  max_vel_trans:  0.3
+  min_vel_trans:  -0.3
+
+  max_vel_theta: 0.3
+  min_vel_theta: -0.3
+
+  acc_lim_x: 0.3
+  acc_lim_theta: 0.3 
+  acc_lim_y: 0.0
+
+  # Goal Tolerance Parameters
+  yaw_goal_tolerance: 0.1
+  xy_goal_tolerance: 0.05
+  latch_xy_goal_tolerance: false

@@ -1,0 +1,8 @@
+prefix=/home/ross/catkin_ws/install
+
+Name: rqt_robot_steering
+Description: Description of rqt_robot_steering
+Version: 0.5.12
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
